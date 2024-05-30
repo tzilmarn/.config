@@ -1,0 +1,20 @@
+{
+	"description": "Right Option -> LeftCtrl+LeftOption",
+	"manipulators": [
+		{
+			"from": {
+				"key_code": "right_option",
+				"modifiers": {
+					"optional": ["any"]
+				}
+			},
+			"to": [
+				{
+					"key_code": "left_option",
+					"modifiers": ["left_control"]
+				}
+			],
+			"type": "basic"
+		}
+	]
+}
