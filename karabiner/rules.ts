@@ -66,6 +66,8 @@ export const rules: KarabinerRules[] = [
 			r: open('https://reddit.com'),
 			i: open('https://instagram.com'),
 			x: open('https://x.com'),
+			v: open('https://vercel.com'),
+			c: open('https://cloudflare.com'),
 			w: open(''),
 		},
 

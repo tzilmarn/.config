@@ -1,5 +1,6 @@
 return {
 	"levouh/tint.nvim",
+	enabled = false,
 	config = function()
 		local tint = require("tint")
 

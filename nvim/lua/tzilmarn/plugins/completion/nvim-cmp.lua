@@ -19,7 +19,7 @@ return {
 			window = {
 				completion = {
 					border = "rounded",
-					winhighlight = "Notmal:CmpNormal",
+					winhighlight = "Normal:CmpNormal",
 				},
 			},
 
