@@ -21,3 +21,5 @@ ALIASES_DIR="$XDG_CONFIG_HOME/zsh/aliases"
 for alias_file in "$ALIASES_DIR"/*.alias.sh; do
 	[ -e "$alias_file" ] && source "$alias_file"
 done
+
+eval "$(starship init zsh)"

@@ -20,6 +20,8 @@ return {
 				"lua_ls",
 				"graphql",
 				"prismals",
+				"json-lsp",
+				"taplo",
 			},
 		})
 
