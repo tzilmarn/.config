@@ -1,4 +1,4 @@
-local letter_text_object_mapping  = {
+local letter_text_object_mapping = {
 	f = "function",
 	o = "parameter",
 	a = "attribute",
@@ -13,7 +13,7 @@ local textobjects = {
 	select = {
 		enable = true,
 		lookahead = true,
-		keymaps = { },
+		keymaps = {},
 		selection_modes = {},
 		include_surrounding_whitespace = true,
 	},
@@ -55,11 +55,11 @@ return {
 				enable = true,
 			},
 			indent = {
-				enable = true
-			},
-			autotag = {
 				enable = true,
 			},
+			-- autotag = {
+			-- 	enable = true,
+			-- },
 
 			textobjects = textobjects,
 

@@ -22,10 +22,10 @@ return {
 				vim.keymap.set("n", "<leader>lu", "<cmd>Telescope lsp_references<CR>", opts)
 
 				opts.desc = "Go to declaration"
-				vim.keymap.set("n", "<leader>ld", vim.lsp.buf.declaration, opts)
+				vim.keymap.set("n", "<leader>ldc", vim.lsp.buf.declaration, opts)
 
 				opts.desc = "Show LSP definitions"
-				vim.keymap.set("n", "<leader>l", "<cmd>Telescope lsp_definitions<CR>", opts)
+				vim.keymap.set("n", "<leader>ldf", "<cmd>Telescope lsp_definitions<CR>", opts)
 
 				opts.desc = "Show LSP implementations"
 				vim.keymap.set("n", "<leader>li", "<cmd>Telescope lsp_implementations<CR>", opts)
@@ -34,7 +34,7 @@ return {
 				vim.keymap.set("n", "<leader>lt", "<cmd>Telescope lsp_type_definitions<CR>", opts)
 
 				opts.desc = "See available code actions"
-				vim.keymap.set({ "n", "i" }, "<c-.>a", vim.lsp.buf.code_action, opts)
+				vim.keymap.set({ "n", "i" }, "<leader>la", vim.lsp.buf.code_action, opts)
 
 				opts.desc = "Smart rename"
 				vim.keymap.set("n", "<leader>lr", vim.lsp.buf.rename, opts)
