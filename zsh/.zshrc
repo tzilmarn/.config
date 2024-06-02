@@ -22,4 +22,5 @@ for alias_file in "$ALIASES_DIR"/*.alias.sh; do
 	[ -e "$alias_file" ] && source "$alias_file"
 done
 
+eval "$(atuin init zsh)"
 eval "$(starship init zsh)"
