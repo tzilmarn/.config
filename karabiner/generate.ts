@@ -26,6 +26,18 @@ const config = {
 				},
 				rules,
 			},
+			simple_modifications: [
+				{
+					from: {
+						key_code: 'left_shift',
+					},
+					to: [
+						{
+							key_code: 'left_control',
+						},
+					],
+				},
+			],
 		},
 	],
 }
