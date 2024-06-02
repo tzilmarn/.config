@@ -60,6 +60,15 @@ export const rules: KarabinerRules[] = [
 			f: open(''),
 		},
 
+		// Web
+		w: {
+			g: open('https://github.com'),
+			r: open('https://reddit.com'),
+			i: open('https://instagram.com'),
+			x: open('https://x.com'),
+			w: open(''),
+		},
+
 		// Windowing
 		s: {
 			// Right half
