@@ -1,6 +1,7 @@
 #!/usr/bin/env bun
 
 import { rules } from './rules'
+import path from 'path'
 
 const glob = new Bun.Glob('*.rule.json')
 
@@ -34,5 +35,5 @@ for await (const file of glob.scan('.')) {
 	)
 }
 
-const outfile = Bun.file('karabiner.json')
+const outfile = Bun.file(path.resolve(__dirname, 'karabiner.json'))
 await Bun.write(outfile, JSON.stringify(config, null, 2))
