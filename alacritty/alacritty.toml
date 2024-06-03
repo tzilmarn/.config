@@ -1,5 +1,7 @@
 # schema = "https://toml.io/en/v1.0.0"
 
+import = ["~/.config/alacritty/theme-symlink.toml"]
+
 [font]
 normal = { family = "FiraCode Nerd Font", style = "Regular" }
 size = 16

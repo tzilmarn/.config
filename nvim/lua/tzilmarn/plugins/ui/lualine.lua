@@ -10,6 +10,7 @@ return {
 				tabline = 1000,
 				winbar = 1000,
 			},
+			theme = "catppuccin",
 		},
 		sections = {
 			lualine_a = { "mode" },
