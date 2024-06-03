@@ -156,10 +156,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open -a 'Kitty'"
+                    "shell_command": "open -a 'Alacritty'"
                   }
                 ],
-                "description": "Open -a 'Kitty'",
+                "description": "Open -a 'Alacritty'",
                 "type": "basic",
                 "from": {
                   "key_code": "d",

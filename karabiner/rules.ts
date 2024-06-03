@@ -8,7 +8,7 @@ export const rules: KarabinerRules[] = [
 			n: app('Notion'),
 			f: app('Finder'),
 			s: app('Safari'),
-			d: app('Kitty'),
+			d: app('Alacritty'),
 			m: app('Mail'),
 			c: app('ChatGPT'),
 			v: open(
