@@ -3,7 +3,6 @@
 		"dev": "bun --watch generate.ts",
 		"build": "bun generate.ts"
 	},
-	"dependencies": {},
 	"devDependencies": {
 		"@types/bun": "^1.1.3"
 	}

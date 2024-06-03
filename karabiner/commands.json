@@ -1,0 +1,232 @@
+{
+	"a": {
+		"description": "Switches between applications",
+		"commands": {
+			"n": {
+				"description": "Open Notion",
+				"command": "open -a 'Notion'"
+			},
+			"f": {
+				"description": "Open Finder",
+				"command": "open -a 'Finder'"
+			},
+			"s": {
+				"description": "Open Safari",
+				"command": "open -a 'Safari'"
+			},
+			"d": {
+				"description": "Open Alacritty",
+				"command": "open -a 'Alacritty'"
+			},
+			"m": {
+				"description": "Open Mail",
+				"command": "open -a 'Mail'"
+			},
+			"c": {
+				"description": "Open ChatGPT",
+				"command": "open -a 'ChatGPT'"
+			},
+			"v": {
+				"description": "Open Raycast Ollama Chat",
+				"command": "open 'raycast://extensions/massimiliano_pasquini/raycast-ollama/ollama-chat'"
+			},
+			"r": {
+				"description": "Open Reminders",
+				"command": "open -a 'Reminders'"
+			},
+			"y": {
+				"description": "Open YouTube",
+				"command": "open -a 'YouTube'"
+			},
+			"x": {
+				"description": "Open Firefox Developer Edition",
+				"command": "open -a 'Firefox Developer Edition'"
+			},
+			"w": {
+				"description": "Open WhatsApp",
+				"command": "open -a 'WhatsApp'"
+			},
+			"i": {
+				"description": "Open Instagram",
+				"command": "open -a 'Instagram'"
+			},
+			"e": {
+				"description": "Open Neovide",
+				"command": "open -a 'Neovide'"
+			},
+			"p": {
+				"description": "Open Music",
+				"command": "open -a 'Music'"
+			}
+		}
+	},
+	"f": {
+		"description": "Quick find various things",
+		"commands": {
+			"w": {
+				"description": "Switch windows",
+				"command": "open 'raycast://extensions/raycast/navigation/switch-windows'"
+			},
+			"k": {
+				"description": "Kill process",
+				"command": "open 'raycast://extensions/rolandleth/kill-process/index'"
+			},
+			"l": {
+				"description": "Search files",
+				"command": "open 'raycast://extensions/raycast/file-search/search-files'"
+			},
+			"c": {
+				"description": "Clipboard history",
+				"command": "open 'raycast://extensions/raycast/clipboard-history/clipboard-history'"
+			},
+			"m": {
+				"description": "Search music track",
+				"command": "open 'raycast://extensions/fedevitaledev/music/play-library-track'"
+			},
+			"h": {
+				"description": "Search menu items",
+				"command": "open 'raycast://extensions/raycast/navigation/search-menu-items'"
+			},
+			"d": {
+				"description": "Manage downloads",
+				"command": "open 'raycast://extensions/thomas/downloads-manager/manage-downloads'"
+			},
+			"s": {
+				"description": "Search Safari tabs",
+				"command": "open 'raycast://extensions/loris/safari/cloud-tabs'"
+			},
+			"e": {
+				"description": "Browse files",
+				"command": "open 'raycast://extensions/erics118/file-manager/manage-files'"
+			},
+			"g": {
+				"description": "Search GitHub",
+				"command": "open 'raycast://extensions/raycast/github/search-repositories'"
+			}
+		}
+	},
+	"w": {
+		"description": "Quick web navigation",
+		"commands": {
+			"g": {
+				"description": "Open GitHub",
+				"command": "open 'https://github.com'"
+			},
+			"r": {
+				"description": "Open Reddit",
+				"command": "open 'https://reddit.com'"
+			},
+			"i": {
+				"description": "Open Instagram",
+				"command": "open 'https://instagram.com'"
+			},
+			"x": {
+				"description": "Open X (Twitter)",
+				"command": "open 'https://x.com'"
+			},
+			"v": {
+				"description": "Open Vercel",
+				"command": "open 'https://vercel.com'"
+			},
+			"c": {
+				"description": "Open Cloudflare",
+				"command": "open 'https://cloudflare.com'"
+			}
+		}
+	},
+	"s": {
+		"description": "Window management",
+		"commands": {
+			"l": {
+				"description": "Right half",
+				"command": "open -g 'raycast://extensions/raycast/window-management/right-half'"
+			},
+			"h": {
+				"description": "Left half",
+				"command": "open -g 'raycast://extensions/raycast/window-management/left-half'"
+			},
+			"j": {
+				"description": "Reasonable size",
+				"command": "open -g 'raycast://extensions/raycast/window-management/reasonable-size'"
+			},
+			"k": {
+				"description": "Almost maximize",
+				"command": "open -g 'raycast://extensions/raycast/window-management/almost-maximize'"
+			},
+			"u": {
+				"description": "Maximize",
+				"command": "open -g 'raycast://extensions/raycast/window-management/maximize'"
+			},
+			"f": {
+				"description": "Fullscreen",
+				"command": "open -g 'raycast://extensions/raycast/window-management/toggle-fullscreen'"
+			},
+			"n": {
+				"description": "Make smaller",
+				"command": "open -g 'raycast://extensions/raycast/window-management/make-smaller'"
+			},
+			"m": {
+				"description": "Make larger",
+				"command": "open -g 'raycast://extensions/raycast/window-management/make-larger'"
+			},
+			"o": {
+				"description": "Next display",
+				"command": "open -g 'raycast://extensions/raycast/window-management/next-display'"
+			},
+			"i": {
+				"description": "Previous display",
+				"command": "open -g 'raycast://extensions/raycast/window-management/previous-display'"
+			},
+			"c": {
+				"description": "Center",
+				"command": "open -g 'raycast://extensions/raycast/window-management/center'"
+			}
+		}
+	},
+	"k": {
+		"description": "Various tools",
+		"commands": {
+			"s": {
+				"description": "Screenshot popup",
+				"command": "open -g 'cleanshot://all-in-one'"
+			},
+			"c": {
+				"description": "Screenshot area to clipboard",
+				"command": "open -g 'cleanshot://capture-area?action=copy'"
+			}
+		}
+	},
+	"x": {
+		"description": "System settings",
+		"commands": {
+			"i": {
+				"description": "Set input device",
+				"command": "open 'raycast://extensions/benvp/audio-device/set-input-device'"
+			},
+			"o": {
+				"description": "Set output device",
+				"command": "open 'raycast://extensions/benvp/audio-device/set-output-device'"
+			},
+			"l": {
+				"description": "Lock screen",
+				"command": "open -g 'raycast://extensions/raycast/system/lock-screen'"
+			},
+			"q": {
+				"description": "Quit all apps",
+				"command": "open -g 'raycast://extensions/raycast/system/quit-all-applications'"
+			},
+			"t": {
+				"description": "Toggle system appearance",
+				"command": "open -g 'raycast://extensions/raycast/system/toggle-system-appearance'"
+			},
+			"m": {
+				"description": "Toggle stage manager",
+				"command": "open -g 'raycast://extensions/raycast/system/toggle-stage-manager'"
+			},
+			"e": {
+				"description": "Start screen saver",
+				"command": "open -g 'raycast://extensions/koinzhang/screen-saver/start-screen-saver'"
+			}
+		}
+	}
+}

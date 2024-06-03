@@ -1,6 +1,5 @@
 .DS_Store
 github-copilot/
-gh
-raycast
-zsh/.zsh_history
+gh/
+/raycast/
 configstore

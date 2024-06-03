@@ -3,7 +3,7 @@ return {
 	version = false,
 	opts = {
 		mappings = {
-			toggle = "<leader>js",
+			toggle = "<leader>j<cr>",
 		},
 	},
 }

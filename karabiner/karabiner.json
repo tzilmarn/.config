@@ -87,7 +87,7 @@
                     "shell_command": "open -a 'Notion'"
                   }
                 ],
-                "description": "Open -a 'Notion'",
+                "description": "Open Notion",
                 "type": "basic",
                 "from": {
                   "key_code": "n",
@@ -111,7 +111,7 @@
                     "shell_command": "open -a 'Finder'"
                   }
                 ],
-                "description": "Open -a 'Finder'",
+                "description": "Open Finder",
                 "type": "basic",
                 "from": {
                   "key_code": "f",
@@ -135,7 +135,7 @@
                     "shell_command": "open -a 'Safari'"
                   }
                 ],
-                "description": "Open -a 'Safari'",
+                "description": "Open Safari",
                 "type": "basic",
                 "from": {
                   "key_code": "s",
@@ -159,7 +159,7 @@
                     "shell_command": "open -a 'Alacritty'"
                   }
                 ],
-                "description": "Open -a 'Alacritty'",
+                "description": "Open Alacritty",
                 "type": "basic",
                 "from": {
                   "key_code": "d",
@@ -183,7 +183,7 @@
                     "shell_command": "open -a 'Mail'"
                   }
                 ],
-                "description": "Open -a 'Mail'",
+                "description": "Open Mail",
                 "type": "basic",
                 "from": {
                   "key_code": "m",
@@ -207,7 +207,7 @@
                     "shell_command": "open -a 'ChatGPT'"
                   }
                 ],
-                "description": "Open -a 'ChatGPT'",
+                "description": "Open ChatGPT",
                 "type": "basic",
                 "from": {
                   "key_code": "c",
@@ -228,10 +228,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open raycast://extensions/massimiliano_pasquini/raycast-ollama/ollama-chat"
+                    "shell_command": "open 'raycast://extensions/massimiliano_pasquini/raycast-ollama/ollama-chat'"
                   }
                 ],
-                "description": "Open raycast://extensions/massimiliano_pasquini/raycast-ollama/ollama-chat",
+                "description": "Open Raycast Ollama Chat",
                 "type": "basic",
                 "from": {
                   "key_code": "v",
@@ -255,7 +255,7 @@
                     "shell_command": "open -a 'Reminders'"
                   }
                 ],
-                "description": "Open -a 'Reminders'",
+                "description": "Open Reminders",
                 "type": "basic",
                 "from": {
                   "key_code": "r",
@@ -279,7 +279,7 @@
                     "shell_command": "open -a 'YouTube'"
                   }
                 ],
-                "description": "Open -a 'YouTube'",
+                "description": "Open YouTube",
                 "type": "basic",
                 "from": {
                   "key_code": "y",
@@ -303,7 +303,7 @@
                     "shell_command": "open -a 'Firefox Developer Edition'"
                   }
                 ],
-                "description": "Open -a 'Firefox Developer Edition'",
+                "description": "Open Firefox Developer Edition",
                 "type": "basic",
                 "from": {
                   "key_code": "x",
@@ -327,7 +327,7 @@
                     "shell_command": "open -a 'WhatsApp'"
                   }
                 ],
-                "description": "Open -a 'WhatsApp'",
+                "description": "Open WhatsApp",
                 "type": "basic",
                 "from": {
                   "key_code": "w",
@@ -351,7 +351,7 @@
                     "shell_command": "open -a 'Instagram'"
                   }
                 ],
-                "description": "Open -a 'Instagram'",
+                "description": "Open Instagram",
                 "type": "basic",
                 "from": {
                   "key_code": "i",
@@ -375,7 +375,7 @@
                     "shell_command": "open -a 'Neovide'"
                   }
                 ],
-                "description": "Open -a 'Neovide'",
+                "description": "Open Neovide",
                 "type": "basic",
                 "from": {
                   "key_code": "e",
@@ -399,34 +399,10 @@
                     "shell_command": "open -a 'Music'"
                   }
                 ],
-                "description": "Open -a 'Music'",
+                "description": "Open Music",
                 "type": "basic",
                 "from": {
                   "key_code": "p",
-                  "modifiers": {
-                    "optional": [
-                      "any"
-                    ]
-                  }
-                },
-                "conditions": [
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_a",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "to": [
-                  {
-                    "shell_command": "open -a ''"
-                  }
-                ],
-                "description": "Open -a ''",
-                "type": "basic",
-                "from": {
-                  "key_code": "a",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -509,10 +485,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open raycast://extensions/raycast/navigation/switch-windows"
+                    "shell_command": "open 'raycast://extensions/raycast/navigation/switch-windows'"
                   }
                 ],
-                "description": "Open raycast://extensions/raycast/navigation/switch-windows",
+                "description": "Switch windows",
                 "type": "basic",
                 "from": {
                   "key_code": "w",
@@ -533,10 +509,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open raycast://extensions/rolandleth/kill-process/index"
+                    "shell_command": "open 'raycast://extensions/rolandleth/kill-process/index'"
                   }
                 ],
-                "description": "Open raycast://extensions/rolandleth/kill-process/index",
+                "description": "Kill process",
                 "type": "basic",
                 "from": {
                   "key_code": "k",
@@ -557,10 +533,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open raycast://extensions/raycast/file-search/search-files"
+                    "shell_command": "open 'raycast://extensions/raycast/file-search/search-files'"
                   }
                 ],
-                "description": "Open raycast://extensions/raycast/file-search/search-files",
+                "description": "Search files",
                 "type": "basic",
                 "from": {
                   "key_code": "l",
@@ -581,10 +557,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open raycast://extensions/raycast/clipboard-history/clipboard-history"
+                    "shell_command": "open 'raycast://extensions/raycast/clipboard-history/clipboard-history'"
                   }
                 ],
-                "description": "Open raycast://extensions/raycast/clipboard-history/clipboard-history",
+                "description": "Clipboard history",
                 "type": "basic",
                 "from": {
                   "key_code": "c",
@@ -605,10 +581,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open raycast://extensions/fedevitaledev/music/play-library-track"
+                    "shell_command": "open 'raycast://extensions/fedevitaledev/music/play-library-track'"
                   }
                 ],
-                "description": "Open raycast://extensions/fedevitaledev/music/play-library-track",
+                "description": "Search music track",
                 "type": "basic",
                 "from": {
                   "key_code": "m",
@@ -629,10 +605,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open raycast://extensions/raycast/navigation/search-menu-items"
+                    "shell_command": "open 'raycast://extensions/raycast/navigation/search-menu-items'"
                   }
                 ],
-                "description": "Open raycast://extensions/raycast/navigation/search-menu-items",
+                "description": "Search menu items",
                 "type": "basic",
                 "from": {
                   "key_code": "h",
@@ -653,10 +629,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open raycast://extensions/thomas/downloads-manager/manage-downloads"
+                    "shell_command": "open 'raycast://extensions/thomas/downloads-manager/manage-downloads'"
                   }
                 ],
-                "description": "Open raycast://extensions/thomas/downloads-manager/manage-downloads",
+                "description": "Manage downloads",
                 "type": "basic",
                 "from": {
                   "key_code": "d",
@@ -677,10 +653,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open raycast://extensions/loris/safari/cloud-tabs"
+                    "shell_command": "open 'raycast://extensions/loris/safari/cloud-tabs'"
                   }
                 ],
-                "description": "Open raycast://extensions/loris/safari/cloud-tabs",
+                "description": "Search Safari tabs",
                 "type": "basic",
                 "from": {
                   "key_code": "s",
@@ -701,10 +677,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open raycast://extensions/erics118/file-manager/manage-files"
+                    "shell_command": "open 'raycast://extensions/erics118/file-manager/manage-files'"
                   }
                 ],
-                "description": "Open raycast://extensions/erics118/file-manager/manage-files",
+                "description": "Browse files",
                 "type": "basic",
                 "from": {
                   "key_code": "e",
@@ -725,37 +701,13 @@
               {
                 "to": [
                   {
-                    "shell_command": "open raycast://extensions/raycast/github/search-repositories"
+                    "shell_command": "open 'raycast://extensions/raycast/github/search-repositories'"
                   }
                 ],
-                "description": "Open raycast://extensions/raycast/github/search-repositories",
+                "description": "Search GitHub",
                 "type": "basic",
                 "from": {
                   "key_code": "g",
-                  "modifiers": {
-                    "optional": [
-                      "any"
-                    ]
-                  }
-                },
-                "conditions": [
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_f",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "to": [
-                  {
-                    "shell_command": "open "
-                  }
-                ],
-                "description": "Open ",
-                "type": "basic",
-                "from": {
-                  "key_code": "f",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -838,10 +790,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open https://github.com"
+                    "shell_command": "open 'https://github.com'"
                   }
                 ],
-                "description": "Open https://github.com",
+                "description": "Open GitHub",
                 "type": "basic",
                 "from": {
                   "key_code": "g",
@@ -862,10 +814,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open https://reddit.com"
+                    "shell_command": "open 'https://reddit.com'"
                   }
                 ],
-                "description": "Open https://reddit.com",
+                "description": "Open Reddit",
                 "type": "basic",
                 "from": {
                   "key_code": "r",
@@ -886,10 +838,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open https://instagram.com"
+                    "shell_command": "open 'https://instagram.com'"
                   }
                 ],
-                "description": "Open https://instagram.com",
+                "description": "Open Instagram",
                 "type": "basic",
                 "from": {
                   "key_code": "i",
@@ -910,10 +862,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open https://x.com"
+                    "shell_command": "open 'https://x.com'"
                   }
                 ],
-                "description": "Open https://x.com",
+                "description": "Open X (Twitter)",
                 "type": "basic",
                 "from": {
                   "key_code": "x",
@@ -934,10 +886,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open https://vercel.com"
+                    "shell_command": "open 'https://vercel.com'"
                   }
                 ],
-                "description": "Open https://vercel.com",
+                "description": "Open Vercel",
                 "type": "basic",
                 "from": {
                   "key_code": "v",
@@ -958,37 +910,13 @@
               {
                 "to": [
                   {
-                    "shell_command": "open https://cloudflare.com"
+                    "shell_command": "open 'https://cloudflare.com'"
                   }
                 ],
-                "description": "Open https://cloudflare.com",
+                "description": "Open Cloudflare",
                 "type": "basic",
                 "from": {
                   "key_code": "c",
-                  "modifiers": {
-                    "optional": [
-                      "any"
-                    ]
-                  }
-                },
-                "conditions": [
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_w",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "to": [
-                  {
-                    "shell_command": "open "
-                  }
-                ],
-                "description": "Open ",
-                "type": "basic",
-                "from": {
-                  "key_code": "w",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -1074,7 +1002,7 @@
                     "shell_command": "open -g 'raycast://extensions/raycast/window-management/right-half'"
                   }
                 ],
-                "description": "Open -g 'raycast://extensions/raycast/window-management/right-half'",
+                "description": "Right half",
                 "type": "basic",
                 "from": {
                   "key_code": "l",
@@ -1098,7 +1026,7 @@
                     "shell_command": "open -g 'raycast://extensions/raycast/window-management/left-half'"
                   }
                 ],
-                "description": "Open -g 'raycast://extensions/raycast/window-management/left-half'",
+                "description": "Left half",
                 "type": "basic",
                 "from": {
                   "key_code": "h",
@@ -1122,7 +1050,7 @@
                     "shell_command": "open -g 'raycast://extensions/raycast/window-management/reasonable-size'"
                   }
                 ],
-                "description": "Open -g 'raycast://extensions/raycast/window-management/reasonable-size'",
+                "description": "Reasonable size",
                 "type": "basic",
                 "from": {
                   "key_code": "j",
@@ -1146,7 +1074,7 @@
                     "shell_command": "open -g 'raycast://extensions/raycast/window-management/almost-maximize'"
                   }
                 ],
-                "description": "Open -g 'raycast://extensions/raycast/window-management/almost-maximize'",
+                "description": "Almost maximize",
                 "type": "basic",
                 "from": {
                   "key_code": "k",
@@ -1170,7 +1098,7 @@
                     "shell_command": "open -g 'raycast://extensions/raycast/window-management/maximize'"
                   }
                 ],
-                "description": "Open -g 'raycast://extensions/raycast/window-management/maximize'",
+                "description": "Maximize",
                 "type": "basic",
                 "from": {
                   "key_code": "u",
@@ -1194,7 +1122,7 @@
                     "shell_command": "open -g 'raycast://extensions/raycast/window-management/toggle-fullscreen'"
                   }
                 ],
-                "description": "Open -g 'raycast://extensions/raycast/window-management/toggle-fullscreen'",
+                "description": "Fullscreen",
                 "type": "basic",
                 "from": {
                   "key_code": "f",
@@ -1218,7 +1146,7 @@
                     "shell_command": "open -g 'raycast://extensions/raycast/window-management/make-smaller'"
                   }
                 ],
-                "description": "Open -g 'raycast://extensions/raycast/window-management/make-smaller'",
+                "description": "Make smaller",
                 "type": "basic",
                 "from": {
                   "key_code": "n",
@@ -1242,7 +1170,7 @@
                     "shell_command": "open -g 'raycast://extensions/raycast/window-management/make-larger'"
                   }
                 ],
-                "description": "Open -g 'raycast://extensions/raycast/window-management/make-larger'",
+                "description": "Make larger",
                 "type": "basic",
                 "from": {
                   "key_code": "m",
@@ -1266,7 +1194,7 @@
                     "shell_command": "open -g 'raycast://extensions/raycast/window-management/next-display'"
                   }
                 ],
-                "description": "Open -g 'raycast://extensions/raycast/window-management/next-display'",
+                "description": "Next display",
                 "type": "basic",
                 "from": {
                   "key_code": "o",
@@ -1290,7 +1218,7 @@
                     "shell_command": "open -g 'raycast://extensions/raycast/window-management/previous-display'"
                   }
                 ],
-                "description": "Open -g 'raycast://extensions/raycast/window-management/previous-display'",
+                "description": "Previous display",
                 "type": "basic",
                 "from": {
                   "key_code": "i",
@@ -1314,34 +1242,10 @@
                     "shell_command": "open -g 'raycast://extensions/raycast/window-management/center'"
                   }
                 ],
-                "description": "Open -g 'raycast://extensions/raycast/window-management/center'",
+                "description": "Center",
                 "type": "basic",
                 "from": {
                   "key_code": "c",
-                  "modifiers": {
-                    "optional": [
-                      "any"
-                    ]
-                  }
-                },
-                "conditions": [
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_s",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "to": [
-                  {
-                    "shell_command": "open -g ''"
-                  }
-                ],
-                "description": "Open -g ''",
-                "type": "basic",
-                "from": {
-                  "key_code": "w",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -1427,7 +1331,7 @@
                     "shell_command": "open -g 'cleanshot://all-in-one'"
                   }
                 ],
-                "description": "Open -g 'cleanshot://all-in-one'",
+                "description": "Screenshot popup",
                 "type": "basic",
                 "from": {
                   "key_code": "s",
@@ -1451,34 +1355,10 @@
                     "shell_command": "open -g 'cleanshot://capture-area?action=copy'"
                   }
                 ],
-                "description": "Open -g 'cleanshot://capture-area?action=copy'",
+                "description": "Screenshot area to clipboard",
                 "type": "basic",
                 "from": {
                   "key_code": "c",
-                  "modifiers": {
-                    "optional": [
-                      "any"
-                    ]
-                  }
-                },
-                "conditions": [
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_k",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "to": [
-                  {
-                    "shell_command": "open -g ''"
-                  }
-                ],
-                "description": "Open -g ''",
-                "type": "basic",
-                "from": {
-                  "key_code": "k",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -1561,10 +1441,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open raycast://extensions/benvp/audio-device/set-input-device"
+                    "shell_command": "open 'raycast://extensions/benvp/audio-device/set-input-device'"
                   }
                 ],
-                "description": "Open raycast://extensions/benvp/audio-device/set-input-device",
+                "description": "Set input device",
                 "type": "basic",
                 "from": {
                   "key_code": "i",
@@ -1585,10 +1465,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open raycast://extensions/benvp/audio-device/set-output-device"
+                    "shell_command": "open 'raycast://extensions/benvp/audio-device/set-output-device'"
                   }
                 ],
-                "description": "Open raycast://extensions/benvp/audio-device/set-output-device",
+                "description": "Set output device",
                 "type": "basic",
                 "from": {
                   "key_code": "o",
@@ -1612,7 +1492,7 @@
                     "shell_command": "open -g 'raycast://extensions/raycast/system/lock-screen'"
                   }
                 ],
-                "description": "Open -g 'raycast://extensions/raycast/system/lock-screen'",
+                "description": "Lock screen",
                 "type": "basic",
                 "from": {
                   "key_code": "l",
@@ -1636,7 +1516,7 @@
                     "shell_command": "open -g 'raycast://extensions/raycast/system/quit-all-applications'"
                   }
                 ],
-                "description": "Open -g 'raycast://extensions/raycast/system/quit-all-applications'",
+                "description": "Quit all apps",
                 "type": "basic",
                 "from": {
                   "key_code": "q",
@@ -1660,7 +1540,7 @@
                     "shell_command": "open -g 'raycast://extensions/raycast/system/toggle-system-appearance'"
                   }
                 ],
-                "description": "Open -g 'raycast://extensions/raycast/system/toggle-system-appearance'",
+                "description": "Toggle system appearance",
                 "type": "basic",
                 "from": {
                   "key_code": "t",
@@ -1684,7 +1564,7 @@
                     "shell_command": "open -g 'raycast://extensions/raycast/system/toggle-stage-manager'"
                   }
                 ],
-                "description": "Open -g 'raycast://extensions/raycast/system/toggle-stage-manager'",
+                "description": "Toggle stage manager",
                 "type": "basic",
                 "from": {
                   "key_code": "m",
@@ -1708,34 +1588,10 @@
                     "shell_command": "open -g 'raycast://extensions/koinzhang/screen-saver/start-screen-saver'"
                   }
                 ],
-                "description": "Open -g 'raycast://extensions/koinzhang/screen-saver/start-screen-saver'",
+                "description": "Start screen saver",
                 "type": "basic",
                 "from": {
                   "key_code": "e",
-                  "modifiers": {
-                    "optional": [
-                      "any"
-                    ]
-                  }
-                },
-                "conditions": [
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_x",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "to": [
-                  {
-                    "shell_command": "open "
-                  }
-                ],
-                "description": "Open ",
-                "type": "basic",
-                "from": {
-                  "key_code": "x",
                   "modifiers": {
                     "optional": [
                       "any"

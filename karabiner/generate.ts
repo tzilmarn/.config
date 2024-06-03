@@ -1,9 +1,23 @@
 #!/usr/bin/env bun
 
-import { rules } from './rules'
 import path from 'path'
+import { KarabinerRules } from './types'
 
-const glob = new Bun.Glob('*.rule.json')
+import commands from './commands.json'
+import { createHyperSubLayers, run } from './utils'
+
+const rules: KarabinerRules[] = createHyperSubLayers(
+	Object.entries(commands).reduce((acc, [key, value]) => {
+		acc[key] = Object.entries(value.commands).reduce(
+			(subAcc, [subKey, subValue]) => {
+				subAcc[subKey] = run(subValue.command, subValue.description)
+				return subAcc
+			},
+			{}
+		)
+		return acc
+	}, {})
+)
 
 const config = {
 	global: {
@@ -41,11 +55,15 @@ const config = {
 		},
 	],
 }
+
+// Add additional json rules
+const glob = new Bun.Glob('*.rule.json')
 for await (const file of glob.scan('.')) {
 	config.profiles[0].complex_modifications.rules.push(
 		await Bun.file(file).json()
 	)
 }
 
+// Write to file
 const outfile = Bun.file(path.resolve(__dirname, 'karabiner.json'))
 await Bun.write(outfile, JSON.stringify(config, null, 2))
