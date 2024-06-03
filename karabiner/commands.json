@@ -57,6 +57,10 @@
 			"p": {
 				"description": "Open Music",
 				"command": "open -a 'Music'"
+			},
+			"b": {
+				"description": "Show Desktop",
+				"command": "open 'raycast://extensions/raycast/system/show-desktop'"
 			}
 		}
 	},
