@@ -1,6 +1,7 @@
 {
 	"scripts": {
-		"dev": "bun --watch generate.ts"
+		"dev": "bun --watch generate.ts",
+		"build": "bun generate.ts"
 	},
 	"dependencies": {},
 	"devDependencies": {

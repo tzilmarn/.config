@@ -20,7 +20,8 @@ export const rules: KarabinerRules[] = [
 			w: app('WhatsApp'),
 			i: app('Instagram'),
 			e: app('Neovide'),
-			a: open(''),
+			p: app('Music'),
+			a: app(''),
 		},
 
 		// Find
@@ -113,6 +114,21 @@ export const rules: KarabinerRules[] = [
 				'raycast://extensions/raycast/window-management/make-larger'
 			),
 
+			// Next display
+			o: openBackground(
+				'raycast://extensions/raycast/window-management/next-display'
+			),
+
+			// Previous display
+			i: openBackground(
+				'raycast://extensions/raycast/window-management/previous-display'
+			),
+
+			// Previous display
+			c: openBackground(
+				'raycast://extensions/raycast/window-management/center'
+			),
+
 			w: openBackground(''),
 		},
 
@@ -136,19 +152,27 @@ export const rules: KarabinerRules[] = [
 			o: open('raycast://extensions/benvp/audio-device/set-output-device'),
 
 			// Lock screen
-			l: open('raycast://extensions/raycast/system/lock-screen'),
+			l: openBackground('raycast://extensions/raycast/system/lock-screen'),
 
 			// Quit all apps
-			q: open('raycast://extensions/raycast/system/quit-all-applications'),
+			q: openBackground(
+				'raycast://extensions/raycast/system/quit-all-applications'
+			),
 
 			// Toggle system appearance
-			t: open('raycast://extensions/raycast/system/toggle-system-appearance'),
+			t: openBackground(
+				'raycast://extensions/raycast/system/toggle-system-appearance'
+			),
 
 			// Toggle stage manager
-			m: open('raycast://extensions/raycast/system/toggle-stage-manager'),
+			m: openBackground(
+				'raycast://extensions/raycast/system/toggle-stage-manager'
+			),
 
 			// Start screen saver
-			e: open('raycast://extensions/koinzhang/screen-saver/start-screen-saver'),
+			e: openBackground(
+				'raycast://extensions/koinzhang/screen-saver/start-screen-saver'
+			),
 
 			x: open(''),
 		},
