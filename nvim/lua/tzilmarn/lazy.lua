@@ -17,6 +17,7 @@ require("lazy").setup({
 	{ import = "tzilmarn.plugins.completion" },
 	{ import = "tzilmarn.plugins.ui" },
 	{ import = "tzilmarn.plugins.behavior" },
+	{ import = "tzilmarn.plugins.mini" },
 }, {
 	checker = {
 		enabled = true,
