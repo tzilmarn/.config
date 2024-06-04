@@ -108,8 +108,8 @@
 				"command": "open -g 'raycast://extensions/erics118/file-manager/manage-files'"
 			},
 			"g": {
-				"description": "Search GitHub",
-				"command": "open -g 'raycast://extensions/raycast/github/search-repositories'"
+				"description": "Search Google",
+				"command": "open -g 'raycast://extensions/mblode/google-search/index'"
 			}
 		}
 	},

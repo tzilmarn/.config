@@ -16,11 +16,8 @@ for cmd_file in "$COMMANDS_DIR"/*.command.sh; do
   [ -e "$cmd_file" ] && source "$cmd_file"
 done
 
-# Load all alias files
-ALIASES_DIR="$XDG_CONFIG_HOME/zsh/aliases"
-for alias_file in "$ALIASES_DIR"/*.alias.sh; do
-	[ -e "$alias_file" ] && source "$alias_file"
-done
+# Load aliases
+source "$XDG_CONFIG_HOME/zsh/aliases.sh"
 
 eval "$(atuin init zsh)"
 eval "$(starship init zsh)"

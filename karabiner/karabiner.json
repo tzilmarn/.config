@@ -749,10 +749,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open -g 'raycast://extensions/raycast/github/search-repositories'"
+                    "shell_command": "open -g 'raycast://extensions/mblode/google-search/index'"
                   }
                 ],
-                "description": "Search GitHub",
+                "description": "Search Google",
                 "type": "basic",
                 "from": {
                   "key_code": "g",
