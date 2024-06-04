@@ -533,7 +533,7 @@
               {
                 "to": [
                   {
-                    "shell_command": "open 'raycast://extensions/raycast/navigation/switch-windows'"
+                    "shell_command": "open -g 'raycast://extensions/raycast/navigation/switch-windows'"
                   }
                 ],
                 "description": "Switch windows",
@@ -557,7 +557,7 @@
               {
                 "to": [
                   {
-                    "shell_command": "open 'raycast://extensions/rolandleth/kill-process/index'"
+                    "shell_command": "open -g 'raycast://extensions/rolandleth/kill-process/index'"
                   }
                 ],
                 "description": "Kill process",
@@ -581,7 +581,7 @@
               {
                 "to": [
                   {
-                    "shell_command": "open 'raycast://extensions/raycast/file-search/search-files'"
+                    "shell_command": "open -g 'raycast://extensions/raycast/file-search/search-files'"
                   }
                 ],
                 "description": "Search files",
@@ -605,7 +605,7 @@
               {
                 "to": [
                   {
-                    "shell_command": "open 'raycast://extensions/raycast/clipboard-history/clipboard-history'"
+                    "shell_command": "open -g 'raycast://extensions/raycast/clipboard-history/clipboard-history'"
                   }
                 ],
                 "description": "Clipboard history",
@@ -629,7 +629,7 @@
               {
                 "to": [
                   {
-                    "shell_command": "open 'raycast://extensions/fedevitaledev/music/play-library-track'"
+                    "shell_command": "open -g 'raycast://extensions/fedevitaledev/music/play-library-track'"
                   }
                 ],
                 "description": "Search music track",
@@ -653,7 +653,7 @@
               {
                 "to": [
                   {
-                    "shell_command": "open 'raycast://extensions/raycast/navigation/search-menu-items'"
+                    "shell_command": "open -g 'raycast://extensions/raycast/navigation/search-menu-items'"
                   }
                 ],
                 "description": "Search menu items",
@@ -677,7 +677,7 @@
               {
                 "to": [
                   {
-                    "shell_command": "open 'raycast://extensions/thomas/downloads-manager/manage-downloads'"
+                    "shell_command": "open -g 'raycast://extensions/thomas/downloads-manager/manage-downloads'"
                   }
                 ],
                 "description": "Manage downloads",
@@ -701,7 +701,7 @@
               {
                 "to": [
                   {
-                    "shell_command": "open 'raycast://extensions/loris/safari/cloud-tabs'"
+                    "shell_command": "open -g 'raycast://extensions/loris/safari/cloud-tabs'"
                   }
                 ],
                 "description": "Search Safari tabs",
@@ -725,7 +725,7 @@
               {
                 "to": [
                   {
-                    "shell_command": "open 'raycast://extensions/erics118/file-manager/manage-files'"
+                    "shell_command": "open -g 'raycast://extensions/erics118/file-manager/manage-files'"
                   }
                 ],
                 "description": "Browse files",
@@ -749,7 +749,7 @@
               {
                 "to": [
                   {
-                    "shell_command": "open 'raycast://extensions/raycast/github/search-repositories'"
+                    "shell_command": "open -g 'raycast://extensions/raycast/github/search-repositories'"
                   }
                 ],
                 "description": "Search GitHub",

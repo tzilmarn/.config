@@ -73,43 +73,43 @@
 		"commands": {
 			"w": {
 				"description": "Switch windows",
-				"command": "open 'raycast://extensions/raycast/navigation/switch-windows'"
+				"command": "open -g 'raycast://extensions/raycast/navigation/switch-windows'"
 			},
 			"k": {
 				"description": "Kill process",
-				"command": "open 'raycast://extensions/rolandleth/kill-process/index'"
+				"command": "open -g 'raycast://extensions/rolandleth/kill-process/index'"
 			},
 			"l": {
 				"description": "Search files",
-				"command": "open 'raycast://extensions/raycast/file-search/search-files'"
+				"command": "open -g 'raycast://extensions/raycast/file-search/search-files'"
 			},
 			"c": {
 				"description": "Clipboard history",
-				"command": "open 'raycast://extensions/raycast/clipboard-history/clipboard-history'"
+				"command": "open -g 'raycast://extensions/raycast/clipboard-history/clipboard-history'"
 			},
 			"m": {
 				"description": "Search music track",
-				"command": "open 'raycast://extensions/fedevitaledev/music/play-library-track'"
+				"command": "open -g 'raycast://extensions/fedevitaledev/music/play-library-track'"
 			},
 			"h": {
 				"description": "Search menu items",
-				"command": "open 'raycast://extensions/raycast/navigation/search-menu-items'"
+				"command": "open -g 'raycast://extensions/raycast/navigation/search-menu-items'"
 			},
 			"d": {
 				"description": "Manage downloads",
-				"command": "open 'raycast://extensions/thomas/downloads-manager/manage-downloads'"
+				"command": "open -g 'raycast://extensions/thomas/downloads-manager/manage-downloads'"
 			},
 			"s": {
 				"description": "Search Safari tabs",
-				"command": "open 'raycast://extensions/loris/safari/cloud-tabs'"
+				"command": "open -g 'raycast://extensions/loris/safari/cloud-tabs'"
 			},
 			"e": {
 				"description": "Browse files",
-				"command": "open 'raycast://extensions/erics118/file-manager/manage-files'"
+				"command": "open -g 'raycast://extensions/erics118/file-manager/manage-files'"
 			},
 			"g": {
 				"description": "Search GitHub",
-				"command": "open 'raycast://extensions/raycast/github/search-repositories'"
+				"command": "open -g 'raycast://extensions/raycast/github/search-repositories'"
 			}
 		}
 	},
