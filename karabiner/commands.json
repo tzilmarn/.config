@@ -61,6 +61,10 @@
 			"b": {
 				"description": "Show Desktop",
 				"command": "open 'raycast://extensions/raycast/system/show-desktop'"
+			},
+			"z": {
+				"description": "Open Anybox",
+				"command": "open -a 'Anybox'"
 			}
 		}
 	},

@@ -10,6 +10,7 @@ return {
 					light = "latte",
 					dark = "mocha",
 				},
+				transparent_background = true,
 			})
 
 			vim.cmd.colorscheme("catppuccin")

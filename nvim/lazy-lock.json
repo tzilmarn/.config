@@ -23,7 +23,6 @@
   "mini.files": { "branch": "main", "commit": "2299bf2f55993d899249a585f04bb4ff5386d37e" },
   "mini.indentscope": { "branch": "main", "commit": "f0d7faa064c892b96997810afcddfadc3f2a15b3" },
   "mini.jump": { "branch": "main", "commit": "5c656080cc0be1d60c4b7b6e0d4b1ab7ed2d902b" },
-  "mini.jump2d": { "branch": "main", "commit": "d02606f4014421dd099a4b0fc3511af2cc598d4c" },
   "mini.move": { "branch": "main", "commit": "9670fe1d19af3d9a69ddce920c527c883ca5dc4c" },
   "mini.operators": { "branch": "main", "commit": "ccc67955124dde0ba20cdcb37ea30ff1646da574" },
   "mini.pairs": { "branch": "main", "commit": "40261dfcec7623cd57be3c3beb50fa73f2650cdf" },
@@ -43,5 +42,6 @@
   "tailwind-tools.nvim": { "branch": "master", "commit": "a95aaf11d9deca884743c9017323c0ffea0015f2" },
   "telescope-fzf-native.nvim": { "branch": "main", "commit": "9ef21b2e6bb6ebeaf349a0781745549bbb870d27" },
   "telescope.nvim": { "branch": "0.1.x", "commit": "a0bbec21143c7bc5f8bb02e0005fa0b982edc026" },
-  "todo-comments.nvim": { "branch": "main", "commit": "70a93ce66083699571adc361166504b03cc39c2b" }
+  "todo-comments.nvim": { "branch": "main", "commit": "70a93ce66083699571adc361166504b03cc39c2b" },
+  "trouble.nvim": { "branch": "main", "commit": "e2969409cf3f38f69913cc8fd9aa13137aabe760" }
 }
