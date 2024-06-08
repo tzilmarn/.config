@@ -10,4 +10,3 @@ size = 16
 option_as_alt = "Both"
 opacity = 0.8
 blur = true
-decorations = "buttonless"

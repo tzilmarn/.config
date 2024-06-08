@@ -11,6 +11,7 @@ return {
 	},
 	config = function()
 		local telescope = require("telescope")
+		local builtin = require("telescope.builtin")
 
 		telescope.setup({
 			defaults = {
@@ -21,30 +22,21 @@ return {
 
 		telescope.load_extension("fzf")
 
-		vim.keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<cr>", { desc = "Telescope files in cwd" })
-		vim.keymap.set("n", "<leader>fg", "<cmd>Telescope live_grep<cr>", { desc = "Telescope grep" })
-		vim.keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>", { desc = "Telescope help tags" })
-		vim.keymap.set("n", "<leader>fcc", "<cmd>Telescope commands<cr>", { desc = "Telescope commands" })
+		vim.keymap.set("n", "<leader>ff", builtin.find_files, { desc = "Telescope files" })
+		vim.keymap.set("n", "<leader>fg", builtin.live_grep, { desc = "Telescope live grep" })
+		vim.keymap.set("n", "<leader>fh", builtin.help_tags, { desc = "Telescope help tags" })
+		vim.keymap.set("n", "<leader>fcc", builtin.commands, { desc = "Telescope commands" })
+		vim.keymap.set("n", "<leader>fch", builtin.command_history, { desc = "Telescope commands in history" })
 		vim.keymap.set(
 			"n",
-			"<leader>fch",
-			"<cmd>Telescope command_history<cr>",
-			{ desc = "Telescope commands in history" }
+			"<leader>fibt",
+			builtin.current_buffer_fuzzy_find,
+			{ desc = "Telescope text inside buffer" }
 		)
-		vim.keymap.set(
-			"n",
-			"<leader>fs",
-			"<cmd>Telescope lsp_workspace_symbols<cr>",
-			{ desc = "Telescope workspace symbols" }
-		)
-		vim.keymap.set(
-			"n",
-			"<leader>fd",
-			"<cmd>Telescope lsp_document_symbols<cr>",
-			{ desc = "Telescope document symbols" }
-		)
-		vim.keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<cr>", { desc = "Telescope open buffer" })
-		vim.keymap.set("n", "<leader>fq", "<cmd>Telescope quickfix<cr>", { desc = "Telescope quickfix" })
-		vim.keymap.set("n", "<leader>fr", "<cmd>Telescope registers<cr>", { desc = "Telescope registers" })
+		vim.keymap.set("n", "<leader>fb", builtin.buffers, { desc = "Telescope open buffer" })
+		vim.keymap.set("n", "<leader>fq", builtin.quickfix, { desc = "Telescope quickfix" })
+		vim.keymap.set("n", "<leader>fo", builtin.vim_options, { desc = "Telescope vim options" })
+		vim.keymap.set("n", "<leader>fk", builtin.keymaps, { desc = "Telescope keymaps" })
+		vim.keymap.set("n", "<leader>fr", builtin.registers, { desc = "Telescope registers" })
 	end,
 }
