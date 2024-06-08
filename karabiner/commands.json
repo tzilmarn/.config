@@ -110,6 +110,10 @@
 			"g": {
 				"description": "Search Google",
 				"command": "open -g 'raycast://extensions/mblode/google-search/index'"
+			},
+			"q": {
+				"description": "Search Emoji",
+				"command": "open -g 'raycast://extensions/raycast/emoji-symbols/search-emoji-symbols'"
 			}
 		}
 	},
@@ -201,6 +205,14 @@
 			"c": {
 				"description": "Screenshot area to clipboard",
 				"command": "open -g 'cleanshot://capture-area?action=copy'"
+			},
+			"t": {
+				"description": "Save current tab to Anybox with tags",
+				"command": "open -g 'raycast://extensions/anybox/anybox/saveCurrentTabWithTags'"
+			},
+			"n": {
+				"description": "Create note in Anybox",
+				"command": "open -g 'raycast://extensions/anybox/anybox/saveNote'"
 			}
 		}
 	},
