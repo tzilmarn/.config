@@ -43,11 +43,21 @@ const config = {
 			simple_modifications: [
 				{
 					from: {
-						key_code: 'left_shift',
+						key_code: 'fn',
 					},
 					to: [
 						{
 							key_code: 'left_control',
+						},
+					],
+				},
+				{
+					from: {
+						key_code: 'left_control',
+					},
+					to: [
+						{
+							key_code: 'fn',
 						},
 					],
 				},

@@ -2169,28 +2169,6 @@
             ]
           },
           {
-            "description": "Left Ctrl -> Left Shift",
-            "manipulators": [
-              {
-                "from": {
-                  "key_code": "left_ctrl",
-                  "modifiers": {
-                    "optional": [
-                      "any"
-                    ]
-                  }
-                },
-                "to": [
-                  {
-                    "key_code": "left_shift",
-                    "modifiers": []
-                  }
-                ],
-                "type": "basic"
-              }
-            ]
-          },
-          {
             "description": "Vim bindings with right command",
             "manipulators": [
               {
@@ -2300,11 +2278,21 @@
       "simple_modifications": [
         {
           "from": {
-            "key_code": "left_shift"
+            "key_code": "fn"
           },
           "to": [
             {
               "key_code": "left_control"
+            }
+          ]
+        },
+        {
+          "from": {
+            "key_code": "left_control"
+          },
+          "to": [
+            {
+              "key_code": "fn"
             }
           ]
         }
