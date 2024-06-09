@@ -3,8 +3,8 @@
 		"description": "Switches between applications",
 		"commands": {
 			"n": {
-				"description": "Open Notion",
-				"command": "open -a 'Notion'"
+				"description": "Open Notes",
+				"command": "open -a 'Notes'"
 			},
 			"f": {
 				"description": "Open Finder",
@@ -65,6 +65,10 @@
 			"z": {
 				"description": "Open Anybox",
 				"command": "open -a 'Anybox'"
+			},
+			"t": {
+				"description": "Open Screen Sharing",
+				"command": "open -a 'Screen Sharing'"
 			}
 		}
 	},
@@ -156,6 +160,10 @@
 			"s": {
 				"description": "View shortcut cheatsheet",
 				"command": "open -g 'raycast://script-commands/view-karabiner-shortcuts'"
+			},
+			"r": {
+				"description": "View reminders",
+				"command": "open -g 'raycast://extensions/raycast/apple-reminders/my-reminders'"
 			},
 			"c": {
 				"description": "View schedule",
