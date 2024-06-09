@@ -7,7 +7,6 @@ return {
 	opts = {
 		options = {
 			mode = "buffers",
-			separator_style = "slant",
 			diagnostics = "nvim_lsp",
 			diagnostics_update_in_insert = true,
 			offsets = {

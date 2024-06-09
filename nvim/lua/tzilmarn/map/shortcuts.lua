@@ -14,3 +14,8 @@ end)
 vim.keymap.set({ "n", "i" }, "<c-k><c-k>", function()
 	vim.fn.append(vim.fn.line(".") - 1, "")
 end)
+
+-- delete entire text in buffer
+vim.keymap.set("n", "die", function()
+	vim.api.nvim_buf_set_text(0, 0, 0, -1, -1, { "" })
+end, { desc = "Delete entire text in buffer" })
