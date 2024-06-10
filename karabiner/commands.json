@@ -103,7 +103,7 @@
 				"description": "Manage downloads",
 				"command": "open -g 'raycast://extensions/thomas/downloads-manager/manage-downloads'"
 			},
-			"s": {
+			"t": {
 				"description": "Search Safari tabs",
 				"command": "open -g 'raycast://extensions/loris/safari/cloud-tabs'"
 			},
@@ -126,6 +126,10 @@
 			"b": {
 				"description": "Search homebrew packages",
 				"command": "open -g 'raycast://extensions/nhojb/brew/search'"
+			},
+			"s": {
+				"description": "Search Snippets",
+				"command": "open -g 'raycast://extensions/raycast/snippets/search-snippets'"
 			}
 		}
 	},
@@ -151,6 +155,10 @@
 			"a": {
 				"description": "Create note in Anybox",
 				"command": "open -g 'raycast://extensions/anybox/anybox/saveNote'"
+			},
+			"e": {
+				"description": "Create Snippet",
+				"command": "open -g 'raycast://extensions/raycast/snippets/create-snippet'"
 			}
 		}
 	},
