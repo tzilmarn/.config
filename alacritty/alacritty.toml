@@ -13,3 +13,8 @@ blur = true
 [window.dimensions]
 columns = 133
 lines = 40
+
+[cursor.style]
+shape = "Beam"
+[cursor.vi_mode_style]
+shape = "Block"

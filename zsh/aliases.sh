@@ -10,10 +10,11 @@ alias cfgkar="nvim ~/.config/karabiner/commands.json"
 alias lg=lazygit
 alias ld=lazydocker
 alias brewdump="brew bundle --file $HOME/.config/homebrew/Brewfile dump --force"
+alias t="tmux a || tmux"
 
 # SSH
-alias mini="ssh mini.local"
-alias mbook="ssh mbook.local"
+alias tzilmini="ssh tzilmini.local"
+alias tzilbook="ssh tzilbook.local"
 
 # Config git
 alias configyeet="cd ~/.config && git commit -am 'Yeet update' && git push && cd -"

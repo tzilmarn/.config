@@ -33,7 +33,9 @@ brew "serve"
 brew "starship"
 brew "swiftformat"
 brew "tldr"
+brew "tmux"
 brew "vercel-cli"
+brew "watchexec"
 brew "watchman"
 brew "wget"
 brew "jesseduffield/lazygit/lazygit"
@@ -51,12 +53,14 @@ cask "font-fira-code-nerd-font"
 cask "font-jetbrains-mono"
 cask "hammerspoon"
 cask "httpie"
+cask "iina"
 cask "kitty"
 cask "musescore"
 cask "neovide"
 cask "notion"
 cask "obs"
 cask "ollama"
+cask "plex-media-player"
 cask "proxyman"
 cask "raycast"
 cask "setapp"
@@ -67,6 +71,7 @@ cask "visual-studio-code"
 cask "whatsapp"
 mas "Actions", id: 1586435171
 mas "Anybox", id: 1593408455
+mas "Apple Configurator", id: 1037126344
 mas "Data Jar", id: 1453273600
 mas "Developer", id: 640199958
 mas "forScore", id: 363738376
@@ -75,12 +80,11 @@ mas "Logic Pro", id: 634148309
 mas "MainStage", id: 634159523
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Steam Link", id: 1246969117
 mas "StopTheMadness Pro", id: 6471380298
-mas "Super Agent", id: 1568262835
+mas "Termius", id: 1176074088
 mas "TestFlight", id: 899247664
-mas "Userscripts-Mac-App", id: 1463298887
 mas "Vimari", id: 1480933944
-mas "Xcode", id: 497799835
 vscode "aarondill.vercel-project-manager-vscode"
 vscode "antiantisepticeye.vscode-color-picker"
 vscode "biomejs.biome"
