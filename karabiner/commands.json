@@ -3,8 +3,12 @@
 		"description": "Switches between applications",
 		"commands": {
 			"n": {
-				"description": "Open Notes",
-				"command": "open -a 'Notes'"
+				"description": "Open Notion",
+				"command": "open -a 'Notion'"
+			},
+			"f": {
+				"description": "Open Finder",
+				"command": "open -a 'Finder'"
 			},
 			"q": {
 				"description": "Open System Settings",
@@ -14,9 +18,9 @@
 				"description": "Open Setapp",
 				"command": "open -a 'Setapp'"
 			},
-			"f": {
-				"description": "Open Finder",
-				"command": "open -a 'Finder'"
+			"i": {
+				"description": "Open iPhone Mirroring",
+				"command": "open -a 'iPhone Mirroring'"
 			},
 			"s": {
 				"description": "Open Safari",
@@ -54,10 +58,6 @@
 				"description": "Open WhatsApp",
 				"command": "open -a 'WhatsApp'"
 			},
-			"i": {
-				"description": "Open Instagram",
-				"command": "open -a 'Instagram'"
-			},
 			"e": {
 				"description": "Open Neovide",
 				"command": "open -a 'Neovide'"
@@ -77,6 +77,10 @@
 			"t": {
 				"description": "Open Screen Sharing",
 				"command": "open -a 'Screen Sharing'"
+			},
+			"l": {
+				"description": "Open Logic Pro X",
+				"command": "open '/Applications/Logic Pro X.app'"
 			}
 		}
 	},
@@ -138,6 +142,14 @@
 			"s": {
 				"description": "Search Snippets",
 				"command": "open -g 'raycast://extensions/raycast/snippets/search-snippets'"
+			},
+			"x": {
+				"description": "Search Files",
+				"command": "open -g 'raycast://extensions/raycast/file-search/search-files'"
+			},
+			"p": {
+				"description": "Ask Perplexity",
+				"command": "open -g 'raycast://extensions/third774/perplexity/ask-perplexity'"
 			}
 		}
 	},

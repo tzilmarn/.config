@@ -1,5 +1,6 @@
 return {
 	"zbirenbaum/copilot.lua",
+	enabled = false,
 	config = function()
 		local copilot = require("copilot")
 		local panel = require("copilot.panel")

@@ -8,7 +8,7 @@ size = 16
 
 [window]
 option_as_alt = "Both"
-opacity = 0.8
+opacity = 0.9
 blur = true
 [window.dimensions]
 columns = 133
