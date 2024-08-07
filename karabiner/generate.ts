@@ -40,38 +40,6 @@ const config = {
 				},
 				rules,
 			},
-			simple_modifications: [
-				{
-					from: {
-						key_code: 'fn',
-					},
-					to: [
-						{
-							key_code: 'left_control',
-						},
-					],
-				},
-				{
-					from: {
-						key_code: 'non_us_backslash',
-					},
-					to: [
-						{
-							key_code: 'left_control',
-						},
-					],
-				},
-				{
-					from: {
-						key_code: 'left_control',
-					},
-					to: [
-						{
-							key_code: 'fn',
-						},
-					],
-				},
-			],
 		},
 	],
 }

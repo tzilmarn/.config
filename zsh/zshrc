@@ -2,7 +2,7 @@ EDITOR=nvim
 VISUAL=nvim
 MANPAGER="bat -p -l man"
 
-PATH=/opt/homebrew/bin:$HOME/.bin:$HOME/.bun/bin:$HOME/.config/scripts:$PATH
+PATH=/opt/homebrew/lib/ruby/gems/3.3.0/bin:/opt/homebrew/bin:$HOME/.bin:$HOME/.bun/bin:$HOME/.config/scripts:$PATH
 
 # Load all env files
 ENV_DIR="$XDG_CONFIG_HOME/zsh/env"

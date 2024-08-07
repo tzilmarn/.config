@@ -63,8 +63,8 @@
 				"command": "open -a 'Neovide'"
 			},
 			"p": {
-				"description": "Open Music",
-				"command": "open -a 'Music'"
+				"description": "Open Perplexity",
+				"command": "open -a 'Perplexity'"
 			},
 			"b": {
 				"description": "Show Desktop",
